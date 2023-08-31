@@ -1,10 +1,11 @@
 .small-card-container {
-  margin: 0 1rem;
+  margin-bottom: 10px;
   width: 50vw;
+  height: 120px;
   padding: 1px;
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #fff;
 }
 
 // .small-card-photo {
@@ -12,15 +13,21 @@
 // }
 
 .small-card-photo img{
-  width: 200px;
+  width: 160px;
+  height: 100%;
   margin-right: 20px;
+  border-radius: 5px;
 }
 
 .small-card-title {
-  font-size: .9rem;
+  font-size: .45rem;
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
 
+}
+
+.small-card-title h1 a{
+  font-weight: 200;
 }
