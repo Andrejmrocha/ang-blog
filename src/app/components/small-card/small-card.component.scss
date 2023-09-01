@@ -5,7 +5,7 @@
   padding: 1px;
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid yellowgreen;
 }
 
 // .small-card-photo {
@@ -25,9 +25,10 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-
+  text-align: justify;
 }
 
 .small-card-title h1 a{
   font-weight: 200;
+
 }
